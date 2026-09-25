@@ -14,19 +14,19 @@
 
 /* ── Palette ────────────────────────────────────────────────────────────────
    Ported from the legacy gallery's own SCSS variables (the legacy env key for
-   Mosaics is `dca`, not `mosaics`), plus the shared MWNF Galleries values.
+   Mosaics is `mos`), plus the shared MWNF Galleries values.
 
-   Mosaics is its own brand — olive/khaki where amulets is terracotta — so
+   Mosaics is its own brand — each legacy gallery had its own palette — so
    nothing here is shared with a sibling gallery. --theme-dark-rgb is the same
    colour as --theme-dark in a form the translucent overlays can take an alpha
    on, so a palette change never has to be chased into a component. */
 :root {
-  --theme-dark:        #504819;  /* banner, header, footer */
-  --theme-dark-rgb:    80, 72, 25;
-  --theme-medium-dark: #6b612b;  /* dark menu items */
-  --theme-medium:      #7e743e;  /* text background, search button */
-  --theme-light:       #91864d;  /* light menu items */
-  --background-color:  #fffff0;  /* page background */
+  --theme-dark:        #3f3a23;  /* banner, header, footer */
+  --theme-dark-rgb:    63, 58, 35;
+  --theme-medium-dark: #553619;  /* dark menu items */
+  --theme-medium:      #6a613a;  /* text background, search button */
+  --theme-light:       #b39863;  /* light menu items */
+  --background-color:  #f4efdb;  /* page background */
 
   --shadow-grey:  #707070;
   --link-blue:    #0000ff;
